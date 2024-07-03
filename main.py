@@ -13,7 +13,7 @@ def generate_one_completion(input_sample):
     return response
 
 problems = read_problems()
-num_samples_per_task = 2  # Reduced number of samples per task
+num_samples_per_task = 1  # Reduced number of samples per task
 
 samples = []
 total_tasks = len(problems)
